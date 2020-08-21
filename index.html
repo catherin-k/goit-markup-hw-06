@@ -555,6 +555,7 @@
         </div>
       </div>
     </footer>
+    <!-- Modal--------------- -->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -564,6 +565,8 @@
           </svg>
         </button>
         <b class="heading">Оставьте свои данные, мы вам перезвоним</b>
+
+        <!-- Form------------------------- -->
         <form action="#">
           <label class="form-field"
             >Имя
@@ -598,8 +601,25 @@
           <label class="form-field"
             >Комментарий
 
-            <textarea class="comment" name="comment"></textarea>
+            <textarea
+              class="comment"
+              name="comment"
+              placeholder="Введите текст"
+            ></textarea>
           </label>
+          <label class="label-policy">
+            <input type="checkbox" name="policy" class="checkbox-policy" />
+            <span class="check-icon"></span>
+            <span class="policy"
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="">Условия договора</a></span
+            >
+          </label>
+          <div class="button-box">
+            <button aria-label="Отправить форму" class="button-submit">
+              Отправить
+            </button>
+          </div>
         </form>
       </div>
     </div>
