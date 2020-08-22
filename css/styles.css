@@ -21,7 +21,7 @@ font-family: 'Roboto', sans-serif; основной
   --background-color-main: #ffffff;
   --background-color-second: #f5f4fa;
   --background-color-footer: #2f303a;
-  --transition-duration: 2500ms;
+  --transition-duration: 250ms;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -413,6 +413,7 @@ footer {
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .address {

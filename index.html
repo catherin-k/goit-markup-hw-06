@@ -550,7 +550,7 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="subscribe-box">
           <b class="subscribe">подпишитесь на рассылку</b>
           <form class="subscribe-form" action="#">
             <input
@@ -559,14 +559,18 @@
               name="email"
               placeholder="E-mail"
             />
-            <button aria-label="Подписаться" class="subscribe-button">
+            <button
+              type="button"
+              aria-label="Подписаться"
+              class="subscribe-button"
+            >
               Подписаться
             </button>
           </form>
         </div>
       </div>
     </footer>
-    <!-- Modal--------------- -->
+    <!-- Modal -->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -577,7 +581,7 @@
         </button>
         <b class="heading">Оставьте свои данные, мы вам перезвоним</b>
 
-        <!-- Form------------------------- -->
+        <!-- Form -->
         <form action="#">
           <label class="form-field"
             >Имя
@@ -627,7 +631,11 @@
             >
           </label>
           <div class="button-box">
-            <button aria-label="Отправить форму" class="button-submit">
+            <button
+              type="submit"
+              aria-label="Отправить форму"
+              class="button-submit"
+            >
               Отправить
             </button>
           </div>
